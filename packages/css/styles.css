@@ -296,6 +296,7 @@ img {
 .home__social-icon {
   font-size: 1.25rem;
   color: var(--first-color);
+  margin-right: 10px;
 }
 
 .home__social-icon:hover {
@@ -317,6 +318,7 @@ img {
 
 .home__title {
   font-size: var(--big-font-size);
+  margin-left: 10px;
 }
 
 .home__subtitle {
@@ -324,14 +326,17 @@ img {
   color: var(--text-color);
   font-weight: var(--font-medium);
   margin-bottom: var(--mb-0-75);
+  margin-left: 10px;
 }
 
 .home__description {
   margin-bottom: var(--mb-2);
+  margin-left: 10px;
 }
 
 .home__scroll {
   display: none;
+ 
 }
 
 .home__scroll-button {
@@ -366,6 +371,7 @@ img {
   padding: 1rem;
   border-radius: 0.5rem;
   font-weight: var(--font-medium);
+  margin: 10px;
 }
 
 .button:hover {
@@ -425,6 +431,7 @@ img {
   display: flex;
   justify-content: space-evenly;
   margin-bottom: var(--mb-2-5);
+  margin-right: 10px;
 }
 
 .about__info-title {
@@ -681,6 +688,7 @@ img {
   font-size: var(--h3-font-size);
   margin-bottom: var(--mb-1);
   font-weight: var(--font-medium);
+  margin-right: var(--mb-3);
 }
 
 .services__button {
@@ -812,6 +820,7 @@ img {
 /*==================== PROJECT IN MIND ====================*/
 .project {
   text-align: center;
+  margin: 20px;
 }
 
 .project__bg {
@@ -825,7 +834,7 @@ img {
 }
 
 .project__description {
-  margin-bottom: var(--mb-1-5);
+  margin-bottom: var(--mb-1-9);
 }
 
 .project__title,
